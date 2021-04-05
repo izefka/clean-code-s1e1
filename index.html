@@ -10,23 +10,23 @@
         charset="utf-8">
 </head>
 <body>
-  <div class="intro">
-    <img src="./eisenhower-matrix.jpg" alt="matrix">
-    <a class="more-inf" 
+  <div class="task__intro">
+    <img src="./eisenhower-matrix.jpg">
+    <a class="task__more-inf" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details ?
     </a>
   </div>
   <div class="center-elem">
-    <section id="topsectionforadd">
-      <label for="new-task">Add Item</label>
+    <p id="topsectionforadd">
+      <label for="add-task__title">Add Item</label>
       <div class="task-row">
-        <input id="new-task" 
+        <input id="add-task__title" 
                class="task" 
                type="text">
         <button>Add</button>
       </div>
-    </section>
+    </p>
     <h3>Todo</h3>
     <ul id="incompleteTasks">
       <li>
@@ -35,10 +35,10 @@
         <input type="text" class="task">
         <button class="edit">Edit</button>
         <button class="delete">
-          <img src="./remove.svg" alt="remove">
+          <img src="./remove.svg">
         </button>
       </li>
-      <li class="editMode">
+      <li class="item_edit-mode">
         <input type="checkbox">
         <label class="task">Go Shopping</label>
         <input type="text" 
@@ -46,19 +46,19 @@
                class="task">
         <button class="edit">Save</button>
         <button class="delete">
-          <img src="./remove.svg" alt="remove">
+          <img src="./remove.svg">
         </button>
       </li>
     </ul>
     <h3>Completed</h3>
-    <ul id="completed-tasks">
+    <ul id="item_completed-tasks">
       <li>
         <input type="checkbox" checked>
         <label class="task">See the Doctor</label>
         <input type="text" class="task">
         <button class="edit">Edit</button>
         <button class="delete">
-          <img src="./remove.svg" alt="remove">
+          <img src="./remove.svg">
         </button>
       </li>
     </ul>
