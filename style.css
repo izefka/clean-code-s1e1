@@ -16,10 +16,11 @@ body {
 .intro .more-inf {
   font-family: fantasy, cursive;
 }
-
-@media (max-width:768px) {
-.intro { text-align: center;
-}
+@media (max-width:768px) {  
+  
+  .intro { text-align: center;
+  }
+  
 }
 .center-elem {
   display: block;
